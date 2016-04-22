@@ -1,20 +1,8 @@
-Mavericks (not Yosemite) as an iBeacon
+El Capitan as an iBeacon
 ===
 
-**NOTE: THIS DOES NOT WORK IN YOSEMITE!!!  Apple have closed the loophole that
-allowed a Mac to be used as an iBeacon in Mavericks.**
-
-Use a Bluetooth 4 enabled Mac running **Mavericks** (not Yosemite) as an iBeacon.
-
-See http://www.blendedcocoa.com/blog/2013/11/02/mavericks-as-an-ibeacon/ for more details.
-
-
-Contributors
-===
-
-Original Mavericks iBeacon support by Matthew Robinson (matt@zensunni.org).
-
-User Interface provided by Falko Richter (falko at briefhansa dot de).
+Just git clone, open the .xcproject, press Play, and boom you got
+yourself an app that turns your Mac into an iBeacon.
 
 License
 ===
