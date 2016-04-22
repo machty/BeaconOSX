@@ -1,7 +1,7 @@
 El Capitan as an iBeacon
 ===
 
-Just git clone, open the .xcproject, press Play, and boom you got
+Just git clone, open the .xcodeproj file, press Play, and boom you got
 yourself an app that turns your Mac into an iBeacon.
 
 License
