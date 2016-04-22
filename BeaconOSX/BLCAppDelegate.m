@@ -63,7 +63,7 @@ static NSString *kBLCUserDefaultsMeasuredPower = @"kBLCUserDefaultsMeasuredPower
 @implementation BLCAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    
+    /*
     NSProcessInfo *processInfo = [NSProcessInfo processInfo];
     NSArray *versionStringComponents = [[processInfo operatingSystemVersionString] componentsSeparatedByString:@" "];
     NSArray *version = [[versionStringComponents objectAtIndex:1] componentsSeparatedByString:@"."];
@@ -82,6 +82,7 @@ static NSString *kBLCUserDefaultsMeasuredPower = @"kBLCUserDefaultsMeasuredPower
             exit(-1);
         }];
     }
+    */
 
     _manager = [[CBPeripheralManager alloc] initWithDelegate:self
                                                        queue:nil];
